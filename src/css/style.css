@@ -147,8 +147,12 @@ main{
 }
 
 img{
-  width: 5vw;
-  height: 5vw;
+  width: 8vw;
+  height: 8vw;
+ 
+ 
+
+  
  
 }
 
@@ -166,9 +170,12 @@ img{
 
 
 .login > div {
-  width: 800px;
-  height: 500px ;    
-  position: center;
+  width: 500px;
+  height: 500px ;  
+  margin-top: -150px;
+  z-index: 999;
+  width: 75%;
+  
   
   
 }
@@ -178,7 +185,8 @@ img{
 .login-logo {
   float: right;
   width: 30%;
-  text-align: center;
+  text-align: center ;
+  
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
